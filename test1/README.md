@@ -28,8 +28,6 @@ GROUP BY d.department_name;
 - **执行计划**
 ![执行计划](../图片/result2.png)
 
-- **sql优化指导**
-![优化指导](../图片/result3.png)
 
 
 **语句2**
@@ -47,10 +45,10 @@ HAVING d.department_name in ('IT','Sales');
 ```
 
 - **执行结果**
-![执行结果](../图片/result2.png)
+![执行结果](result2.png)
 
 - **执行计划**
-![执行计划](../图片/result3.png)
+![执行计划](result3.png)
 
 
 
@@ -66,7 +64,8 @@ WHERE a.department_id=e.department_id
 GROUP BY a.department_name
 
 ```
-![查询结果](../图片/result6.png)
+![查询结果](result4.png)
+![查询结果](result5.png)
 
 
 ### 实验总结
