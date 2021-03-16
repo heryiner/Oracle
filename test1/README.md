@@ -23,10 +23,10 @@ GROUP BY d.department_name;
 ```
 
 - **执行结果**
-![执行结果](result1.png)
+![执行结果](./result1.png)
 
 - **执行计划**
-![执行计划](../图片/result2.png)
+![执行计划](./result2.png)
 
 
 
@@ -45,10 +45,10 @@ HAVING d.department_name in ('IT','Sales');
 ```
 
 - **执行结果**
-![执行结果](result2.png)
+![执行结果](./result2.png)
 
 - **执行计划**
-![执行计划](result3.png)
+![执行计划](./result3.png)
 
 
 
@@ -64,8 +64,8 @@ WHERE a.department_id=e.department_id
 GROUP BY a.department_name
 
 ```
-![查询结果](result4.png)
-![查询结果](result5.png)
+![查询结果](./result4.png)
+![查询结果](./result5.png)
 
 
 ### 实验总结
