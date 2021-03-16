@@ -23,7 +23,7 @@ GROUP BY d.department_name;
 ```
 
 - **执行结果**
-![执行结果](../图片/result1.png)
+![执行结果](result1.png)
 
 - **执行计划**
 ![执行计划](../图片/result2.png)
@@ -47,10 +47,10 @@ HAVING d.department_name in ('IT','Sales');
 ```
 
 - **执行结果**
-![执行结果](../图片/result4.png)
+![执行结果](../图片/result2.png)
 
 - **执行计划**
-![执行计划](../图片/result5.png)
+![执行计划](../图片/result3.png)
 
 
 
